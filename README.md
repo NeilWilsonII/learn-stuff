@@ -57,3 +57,10 @@ Once you've pushed changes to your branch and you're ready to merge your code in
 
 Often, when you push changes to your branch, the github UI will create a pop-up for you to create a Pull Request.
 
+![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/499a15b9-01eb-42a2-a645-2c2c8553c81a)
+
+Click this button, leave a comment for your PR, and select "Create pull request".
+
+
+
+
