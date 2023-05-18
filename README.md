@@ -9,3 +9,8 @@ To authenticate to Github and clone a repo, it is typically recommended to set u
 
 Once your SSH Key is setup. Clone this repository by clicking the "Code" button, selecting "SSH", and then using the copy url button. 
 ![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/fa4b2fd7-cf9f-4fba-abbd-573dc4136cc4)
+
+Navigate to your terminal and clone the repo:
+``` git clone git@github.com:NeilWilsonII/learn-stuff.git ```
+
+Now in your IDE (I recommend VS Code), you can open the learn-stuff repo.
