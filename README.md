@@ -21,7 +21,7 @@ In the bottom right of VS Code, you can open a new terminal. If you click the "+
 
 In the above photo, you can see that your clone of the project learn-stuff is on the branch "Main". Main is typically the most important branch in a repository. It's the "main" source of truth and is typically the branch that gets deployed to production.
 
-Why use branches?
+## Why use branches?
 
 Branches are used so that units of work can be broken off into small chunks and worked on by multiple developers at the same time! A branch is just a copy of the repository code. You can create a new branch in the Github UI or in your terminal.
 
@@ -31,4 +31,25 @@ After cloning this repository to your local machine, check out your own branch, 
 You can now see, I'm on my own branch. I can now make changes to the code without affecting the main branch!
 ![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/a6484f0e-cb97-43e4-ade7-a98cc953d367)
 
-## Make
+## Push a change from your branch
+Branches are only useful if you use them to modify a project and eventually commit those changes back to main. After checking out your own branch shown above, it's time to commit those changes and open a Pull Request. A pull request is a request to combine code from your branch with code in another branch (typically main).
+
+With your own branch name-new-branch checked out, add a txt file to the add_file folder. New files will appear green in your IDE. 
+![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/bfedb81b-765c-448e-8d0b-33ff9cac370f)
+
+Save the file and then in your terminal run the command:
+```git status```
+
+This shows the status of your branch compared to main. You'll see your new file in red.
+
+Next, we will add our changes. This stages our new file to be committed to the branch.
+```git add add_file/neil.txt```
+
+Next, we will commit our changes. This commits our new file to the branch. The -m argument allows you to add a commit message. 
+```git commit -m "add neil file"```
+
+Finally, push your changes to the remote github repository. Since you created your branch on your local machine, the github remote repository does not know about it. That's why we add the -u upstream flag, and then specify the origin (which is our branch).
+```git push -u origin neil-new-branch```
+
+
+
