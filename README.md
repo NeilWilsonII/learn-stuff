@@ -52,5 +52,7 @@ Finally, push your changes to the remote github repository. Since you created yo
 ```git push -u origin neil-new-branch```
 ![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/0c8815a1-4b14-4017-87b5-f912e6fc84da)
 
+Once you've pushed changes to your branch and you're ready to merge your code into main, it's time to open a Pull Request. A Pull Request is a request to merge a branch into main, and it's often required that another developer approve this Pull Request before your changes are applied.
 
+Often, when you push changes to your branch, the github UI will create a pop-up for you to create a Pull Request.
 
