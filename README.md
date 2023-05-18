@@ -16,4 +16,19 @@ Navigate to your terminal and clone the repo:
 Now in your IDE (I recommend VS Code), you can open the learn-stuff repo.
 
 In the bottom right of VS Code, you can open a new terminal. If you click the "+" dropdown, and select Gitbash, your terminal will open a Gitbash window where you can see both your project AND which branch you are on!
+
 ![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/5be64b2b-12f1-4917-bf02-0eeb0ce9fc48)
+
+In the above photo, you can see that your clone of the project learn-stuff is on the branch "Main". Main is typically the most important branch in a repository. It's the "main" source of truth and is typically the branch that gets deployed to production.
+
+Why use branches?
+
+Branches are used so that units of work can be broken off into small chunks and worked on by multiple developers at the same time! A branch is just a copy of the repository code. You can create a new branch in the Github UI or in your terminal.
+
+After cloning this repository to your local machine, check out your own branch, replacing my name with yours:
+```git checkout -b neil-new-branch```
+
+You can now see, I'm on my own branch. I can now make changes to the code without affecting the main branch!
+![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/a6484f0e-cb97-43e4-ade7-a98cc953d367)
+
+
