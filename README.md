@@ -14,3 +14,5 @@ Navigate to your terminal and clone the repo:
 ``` git clone git@github.com:NeilWilsonII/learn-stuff.git ```
 
 Now in your IDE (I recommend VS Code), you can open the learn-stuff repo.
+
+In the bottom right of VS Code, you can open a new terminal. If you click the "+" dropdown, and select Gitbash, your terminal will open a Gitbash window where you can see both your project AND which branch you are on!
