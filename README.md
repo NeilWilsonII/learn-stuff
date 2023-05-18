@@ -50,6 +50,7 @@ Next, we will commit our changes. This commits our new file to the branch. The -
 
 Finally, push your changes to the remote github repository. Since you created your branch on your local machine, the github remote repository does not know about it. That's why we add the -u upstream flag, and then specify the origin (which is our branch).
 ```git push -u origin neil-new-branch```
+
 ![image](https://github.com/NeilWilsonII/learn-stuff/assets/37984321/0c8815a1-4b14-4017-87b5-f912e6fc84da)
 
 Once you've pushed changes to your branch and you're ready to merge your code into main, it's time to open a Pull Request. A Pull Request is a request to merge a branch into main, and it's often required that another developer approve this Pull Request before your changes are applied.
